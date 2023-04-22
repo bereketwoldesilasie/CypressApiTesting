@@ -57,6 +57,7 @@ describe("Booking API Test", () => {
       bookingId = response.body.bookingid;
     });
   });
+  
   it("Update Booking", () => {
     cy.api({
       method: "PUT",
